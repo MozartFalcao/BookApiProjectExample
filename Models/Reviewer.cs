@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
+//meu que legal ó! 
 namespace BookApiProject.Models
 {
     public class Reviewer
