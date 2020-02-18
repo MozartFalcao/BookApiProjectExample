@@ -17,10 +17,10 @@ namespace BookApiProject.Services.Interfaces
 
         bool IsDuplicateCountryName(int countryId, string countryName);
 
-        //bool CreateCountry(Country country);
-        //bool UpdateCountry(Country country);
-        //bool DeleteCountry(Country country);
-        //bool Save();
+        bool CreateCountry(Country country);
+        bool UpdateCountry(Country country);
+        bool DeleteCountry(Country country);
+        bool Save();
 
     }
 }

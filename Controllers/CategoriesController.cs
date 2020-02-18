@@ -13,12 +13,12 @@ namespace BookApiProject.Controllers
     public class CategoriesController : Controller
     {
         private ICategoryRepository _categoriesRepository;
-        //private IAuthorRepository _authorRepository;
+        private IBookRepository _bookRepository;
 
-        public CategoriesController(ICategoryRepository categoriesRepository)
+        public CategoriesController(ICategoryRepository categoriesRepository, IBookRepository bookRepository)
         {
             _categoriesRepository = categoriesRepository;
-            //_authorRepository = authorRepository;
+             _bookRepository = bookRepository;
         }
 
         //api/categories
@@ -76,31 +76,30 @@ namespace BookApiProject.Controllers
 
 
     
-        //api/categories/books/bookId
+         //api/categories/books/bookId
         [HttpGet("books/{bookId}")]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(200, Type = typeof(IEnumerable<CategoryDto>))]
         public IActionResult GetAllCategoriesForABook(int bookId)
         {
-        //    if (!_authorRepository.AuthorExists(authorId))
-        //        return NotFound();
-           var categories = _categoriesRepository.GetAllCategoriesForABook(bookId);
+            if (!_bookRepository.BookExists(bookId))
+                return NotFound();
 
+            var categories = _categoriesRepository.GetAllCategoriesForABook(bookId);
 
-           if (!ModelState.IsValid)
-               return BadRequest(ModelState);
-               
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
             var categoriesDto = new List<CategoryDto>();
-
-            foreach (var category in categories)
+            foreach(var category in categories)
             {
-                categoriesDto.Add(new CategoryDto
+                categoriesDto.Add(new CategoryDto()
                 {
                     Id = category.Id,
                     Name = category.Name
                 });
-            }
+            }            
 
             return Ok(categoriesDto);
         }
