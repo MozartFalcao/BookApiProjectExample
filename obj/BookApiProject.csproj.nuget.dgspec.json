@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TMAFG\\source\\repos\\BookAPIProject\\BookApiProject.csproj": {}
+    "C:\\Workspace\\NetProjects_Repository\\Learning_Projects\\BookApiProjectExample\\BookApiProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TMAFG\\source\\repos\\BookAPIProject\\BookApiProject.csproj": {
+    "C:\\Workspace\\NetProjects_Repository\\Learning_Projects\\BookApiProjectExample\\BookApiProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TMAFG\\source\\repos\\BookAPIProject\\BookApiProject.csproj",
+        "projectUniqueName": "C:\\Workspace\\NetProjects_Repository\\Learning_Projects\\BookApiProjectExample\\BookApiProject.csproj",
         "projectName": "BookApiProject",
-        "projectPath": "C:\\Users\\TMAFG\\source\\repos\\BookAPIProject\\BookApiProject.csproj",
+        "projectPath": "C:\\Workspace\\NetProjects_Repository\\Learning_Projects\\BookApiProjectExample\\BookApiProject.csproj",
         "packagesPath": "C:\\Users\\TMAFG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TMAFG\\source\\repos\\BookAPIProject\\obj\\",
+        "outputPath": "C:\\Workspace\\NetProjects_Repository\\Learning_Projects\\BookApiProjectExample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
