@@ -1,0 +1,17 @@
+.vs/BookApiProject/v16/.suo
+.vs/BookApiProject/v16/Server/sqlite3/db.lock
+.vs/BookApiProject/v16/Server/sqlite3/storage.ide
+.vs/BookApiProject/v16/Server/sqlite3/storage.ide-shm
+.vs/BookApiProject/v16/Server/sqlite3/storage.ide-wal
+bin/Debug/netcoreapp2.2/appsettings.Development.json
+bin/Debug/netcoreapp2.2/appsettings.json
+bin/Debug/netcoreapp2.2/BookApiProject.deps.json
+bin/Debug/netcoreapp2.2/BookApiProject.dll
+bin/Debug/netcoreapp2.2/BookApiProject.pdb
+bin/Debug/netcoreapp2.2/BookApiProject.runtimeconfig.dev.json
+bin/Debug/netcoreapp2.2/BookApiProject.runtimeconfig.json
+bin/Debug/netcoreapp2.2/Properties/launchSettings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vs/BookApiProject/DesignTimeBuild/.dtbcache
+.vs/BookApiProject/config/applicationhost.config

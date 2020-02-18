@@ -1,0 +1,16 @@
+C:\Users\TMAFG\source\repos\BookApiProject\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\TMAFG\source\repos\BookApiProject\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\TMAFG\source\repos\BookApiProject\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\TMAFG\source\repos\BookApiProject\bin\Debug\netcoreapp2.2\BookApiProject.deps.json
+C:\Users\TMAFG\source\repos\BookApiProject\bin\Debug\netcoreapp2.2\BookApiProject.runtimeconfig.json
+C:\Users\TMAFG\source\repos\BookApiProject\bin\Debug\netcoreapp2.2\BookApiProject.runtimeconfig.dev.json
+C:\Users\TMAFG\source\repos\BookApiProject\bin\Debug\netcoreapp2.2\BookApiProject.dll
+C:\Users\TMAFG\source\repos\BookApiProject\bin\Debug\netcoreapp2.2\BookApiProject.pdb
+C:\Users\TMAFG\source\repos\BookApiProject\obj\Debug\netcoreapp2.2\BookApiProject.RazorAssemblyInfo.cache
+C:\Users\TMAFG\source\repos\BookApiProject\obj\Debug\netcoreapp2.2\BookApiProject.RazorAssemblyInfo.cs
+C:\Users\TMAFG\source\repos\BookApiProject\obj\Debug\netcoreapp2.2\BookApiProject.AssemblyInfoInputs.cache
+C:\Users\TMAFG\source\repos\BookApiProject\obj\Debug\netcoreapp2.2\BookApiProject.AssemblyInfo.cs
+C:\Users\TMAFG\source\repos\BookApiProject\obj\Debug\netcoreapp2.2\BookApiProject.RazorTargetAssemblyInfo.cache
+C:\Users\TMAFG\source\repos\BookApiProject\obj\Debug\netcoreapp2.2\BookApiProject.dll
+C:\Users\TMAFG\source\repos\BookApiProject\obj\Debug\netcoreapp2.2\BookApiProject.pdb
+c:\Users\TMAFG\source\repos\BookApiProject\obj\Debug\netcoreapp2.2\BookApiProject.csprojAssemblyReference.cache
