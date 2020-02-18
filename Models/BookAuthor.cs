@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace BookApiProject.Models
 {
+    //só um teste de commit
     public class BookAuthor
     {
         public int BookId { get; set; }
